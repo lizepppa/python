@@ -140,9 +140,9 @@ def main():
     file = "kitchen.json"
     log = "used_ingredients.json"
     rest = Kitchen(file, log)
-    maks = Customer("Maksim", datetime.now())
-    print(rest.available_addons(maks))
-    order = rest.get_order(maks, ham=1, pork=1)
+    liza = Customer("Liza", datetime.now())
+    print(rest.available_addons(liza))
+    order = rest.get_order(liza, ham=1, pork=1)
     print(order)
 
 
