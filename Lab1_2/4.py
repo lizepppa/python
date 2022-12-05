@@ -24,8 +24,3 @@ f = open("text.txt")
 a = Proc(f.read())
 f.close()
 a.Count()
-
-
-text.txt
-Create a class that describes a Product of online store...
-As a Product fields you can use a price, description and product' dimensions.
